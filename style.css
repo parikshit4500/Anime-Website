@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+nav{
+    color: white;
+    list-style: none;
+    background-color: black;
+    opacity: 25;
+    font-family:'Poppins',sans-serif;
+    padding:1px;
+    height:130px;
+    margin: 1px;
+}
+nav ul{
+    padding: 0 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav ul li:hover{
+    background: transparent;
+}
+ul{
+    padding: 2px;
+    margin: 1px;
+
+}
+nav ul li{
+    list-style: none;   
+    padding: 2px 4px;
+}
+.anime img{
+    height: 67px;
+    width: 65px;
+    padding: 2px;
+    margin: 2px;
+    background-color: black;
+    border: 2px dotted;
+    border-radius: 145px;
+    display: flex;
+    flex-direction: row;
+}
+body {
+    
+    /*background: linear-gradient(45deg, #292929, #121212);*/
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+.container{
+    color: whitesmoke;
+    font-family: 'Varela Round',sans-serif;
+
+}
+.anime1 img{
+    padding:2px 2px;
+    margin: 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 13px;
+    background-color: black;
+    color:whitesmoke;
+    height: 45vh;
+    width: auto;
+    
+}
+.anime1 img:hover{
+    background-color: gray;
+    opacity: 2.5;
+}
+.anime1{
+    color: azure;
+    display: inline-block;
+}
+footer{
+
+}
+ul:hover{
+    background: transparent;
+}
+
+
+
